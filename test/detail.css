@@ -1,0 +1,162 @@
+body {
+    font-family: 'Microsoft YaHei', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.ptb45 {
+    padding: 45px 0;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+ul,
+li {
+    list-style: none
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.borderRadius4 {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.school-title {
+    height: 50px;
+    line-height: 50px;
+    background: #225189;
+    padding-left: 15px;
+    color: #FFF;
+    border-radius: 4px 4px 0 0;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.school-title>p {
+    position: absolute;
+    right: 45px;
+    top: 0;
+}
+
+.school-brief {
+    padding: 20px 45px;
+    background: #f9f9f9;
+    border: 1px solid #cccccc;
+    border-radius: 0 0 4px 4px;
+}
+
+.school-brief-img {
+    width: 130px;
+    height: 130px;
+    background: #2b323c;
+    margin-right: 45px;
+}
+
+.school-brief-content>p,
+.isP {
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.school-brief-content .school-name {
+    color: #215088;
+    font-size: 20px;
+}
+
+.state {
+    position: absolute;
+    right: 45px;
+    bottom: 20px;
+}
+
+
+/* 基本信息 */
+
+.baseInfo-desc>.row>.col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.baseInfo {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #215088;
+}
+
+ul.list {
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+ul.list>li {
+    float: left;
+    width: 50%;
+}
+
+ul.list>li>span {
+    border: 1px solid #CCC;
+    float: left;
+    text-align: center;
+    padding: 15px 5px;
+    border-bottom: 0;
+    border-right: 0;
+    min-height: 51px;
+}
+
+.title {
+    width: 30%;
+    color: #666666;
+    background: #f9f9f9;
+}
+
+.content {
+    width: 70%;
+}
+
+.borderBottomAndBorderRight {
+    border-bottom: 1px solid #CCC !important;
+    border-right: 1px solid #CCC !important;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #CCC !important;
+}
+
+.w100 {
+    width: 100% !important;
+}
+
+.w15 {
+    width: 15% !important;
+}
+
+.w85 {
+    width: 85%;
+}
+
+.feedback {
+    color: #999999
+}
+
+.feedback>a {
+    color: #666666;
+}
+
+.feedback>a:hover {
+    text-decoration: none;
+    color: #23527c;
+    font-weight: bold;
+}

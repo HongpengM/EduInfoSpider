@@ -1,0 +1,9 @@
+# ---- Data Files ----
+*.xlsx
+*.csv
+*.html
+*.txt
+*.pkl
+
+# ---- Python compile  files ----
+*.pyc

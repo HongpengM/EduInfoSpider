@@ -1,0 +1,138 @@
+/* advice弹窗 */
+
+.bg {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+
+.adviceBox {
+    width: 500px;
+    min-height: 300px;
+    position: fixed;
+    background: #FFF;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -260px;
+    box-shadow: 0 0 3px #333;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.adviceBox-title {
+    margin: 0;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 15px;
+    /* background: rgb(235, 24, 40); */
+    background: #215089;
+    color: #FFF;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(7, 17, 27, 0.5);
+    position: relative;
+}
+
+.adviceBox-title::before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #FFF;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -50px;
+    top: 15px;
+}
+
+.closeadviceBox {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #FFF;
+    box-shadow: 0 2px 4px rgba(7, 17, 27, 0.8);
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.details-box {
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.adviceContent {
+    text-indent: 25px;
+    color: #60686b;
+    line-height: 2
+}
+
+.connectUs p {
+    color: #0e0e0e;
+    text-indent: 0;
+}
+
+.connectUs p span {
+    color: #656e73;
+    height: 40px;
+    line-height: 40px;
+}
+
+.question1 {
+    text-indent: 0;
+}
+
+.question1 label {
+    display: inline;
+    font-weight: normal;
+}
+
+.question1 input {
+    position: relative;
+    top: 2px;
+}
+
+.advice {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    /* min-height: 150px; */
+    max-height: 75px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.connect {
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.borderBottomstyle {
+    border-bottom: 2px dashed rgb(221, 221, 221);
+    padding-bottom: 15px;
+    position: relative;
+}
